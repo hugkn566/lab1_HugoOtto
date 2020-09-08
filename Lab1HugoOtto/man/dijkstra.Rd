@@ -18,9 +18,12 @@ A vector containing the shortest paths from \code{init_node} to every other node
 Compute Dijkstra's algorithm
 }
 \details{
-This function computes Dijkstra's algorithm to find the shortest paths between nodes in a graph (\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}).
+This function computes Dijkstra's algorithm to find the shortest paths between nodes in a graph.
 }
 \examples{
 dijkstra(wiki_graph, 1)
 dijkstra(wiki_graph, 3) 
+}
+\references{
+https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm (\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}).
 }

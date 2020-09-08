@@ -2,8 +2,9 @@
 #' 
 #' @param graph A data.frame with three variables containing the edges of a graph and the weight of the edge.
 #' @param init_node A node within \code{graph} from which to calculate the shortest path to every other node.
-#' @details This function computes Dijkstra's algorithm to find the shortest paths between nodes in a graph (\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}). 
+#' @details This function computes Dijkstra's algorithm to find the shortest paths between nodes in a graph. 
 #' @return A vector containing the shortest paths from \code{init_node} to every other node in the graph.
+#' @references https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm (\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}).
 #' @examples
 #' dijkstra(wiki_graph, 1)
 #' dijkstra(wiki_graph, 3) 
