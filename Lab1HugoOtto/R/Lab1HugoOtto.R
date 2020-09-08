@@ -1,7 +1,9 @@
 #' Lab1HugoOtto: A package containing the functions euclidean and dijkstra
 #' 
-#' This package contains two functions:
-#' euclidean and dijkstra.
+#' The package provides two different functions. The first function is used to compute the euclidean 
+#' algorithm, which returns the greatest common divisor of two numbers. The second function computes
+#' Dijkstras algorithm, which returns the shortest path from an initial node to every other node within
+#' a graph.
 #' 
 #' @section Euclidean:
 #' The euclidean function takes two numbers and returns the greatest common divisor using the euclidean algorithm.
@@ -12,4 +14,3 @@
 #' @docType package
 #' @name Lab1HugoOtto
 NULL
-#> NULL
