@@ -7,13 +7,16 @@
 euclidean(a, b)
 }
 \arguments{
-\item{c(a, b)}{Numeric scalar or integer.}
+\item{(a, b)}{Numeric scalar or integer.}
 }
 \value{
 The greatest common divisor of \code{a} and \code{b}.
 }
 \description{
 Compute the euclidean algorithm for two numbers
+}
+\details{
+This function computes euclidean algorithm to find the greatest common divisor between two integers (\href{https://en.wikipedia.org/wiki/Euclidean_algorithm}{Wikipedia}).
 }
 \examples{
  
