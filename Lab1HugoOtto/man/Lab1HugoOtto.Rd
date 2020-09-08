@@ -3,20 +3,12 @@
 \docType{package}
 \name{Lab1HugoOtto}
 \alias{Lab1HugoOtto}
-<<<<<<< HEAD
 \title{Lab1HugoOtto: A package containing the functions euclidean and dijkstra}
 \description{
 The package provides two different functions. The first function is used to compute the euclidean 
 algorithm, which returns the greatest common divisor of two numbers. The second function computes
 Dijkstras algorithm, which returns the shortest path from an initial node to every other node within
 a graph.
-=======
-\alias{Lab1HugoOtto-package}
-\title{Lab1HugoOtto: A package containing the functions euclidean and dijkstra}
-\description{
-This package contains two functions:
-euclidean and dijkstra.
->>>>>>> e877f017613a3f8656599c3b3e940918d81a90fe
 }
 \section{Euclidean}{
 
