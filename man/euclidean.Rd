@@ -7,7 +7,7 @@
 euclidean(a, b)
 }
 \arguments{
-\item{a, b}{Numeric scalar or integer.}
+\item{a, b}{Numeric scalars or integers.}
 }
 \value{
 The greatest common divisor of \code{a} and \code{b}.
